@@ -20,8 +20,8 @@ int reverse(int n) {
    
   else
     {
-        r = n % 10; // get the rightmost digit
+        r = n % 10;
         printf("%d", r);
-        reverse(n/10);  // recursive call
+        reverse(n/10);
     }
 }
